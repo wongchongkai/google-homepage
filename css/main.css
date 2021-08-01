@@ -1,0 +1,147 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 150px 0;
+}
+
+form{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+nav{
+    padding: 12px 24px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.nav-right-link{
+    font-size: 12px;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header a{
+    color: black;
+}
+
+footer{
+    background-color: rgb(240, 240, 240);
+    color: dimgray;
+}
+
+footer div{
+    padding: 13px 30px;
+    display: flex;
+    column-gap: 30px;
+    border-bottom: 1px solid #dadce0
+}
+
+footer a{
+    color: dimgray;
+}
+
+.login-button{
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.login-button:hover{
+    background-color: #2b7de9;
+    box-shadow: lightgray;
+}
+
+.divider{
+    margin: auto;
+}
+
+#product-div{
+    border-radius: 50%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+#product-div:hover{
+    background-color: lightgray;
+}
+
+.circle{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: dimgray;
+}
+
+
+#searchbar{
+    font-size: medium;
+    width: 600px;
+    margin: 20px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#searchbar:hover{
+    box-shadow: 1px 1px 3px rgb(182, 182, 182);
+}
+
+#search-button-div{
+    margin: 10px;
+    display: flex;
+    justify-items: center;
+    column-gap: 5px;
+}
+
+#search-button-div button{
+    background-color: rgb(243, 243, 243);
+    color: rgb(70,70,70);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(243, 243, 243);
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+#search-button-div button:hover{
+    border-color:rgb(220,220,220);
+    box-shadow: 1px 1px 2px rgb(220, 220, 220, 0.5);
+}
